@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="img" href="./asset/Img/Capture d'écran 2026-07-01 145242.png">
     <link rel="stylesheet" href="./Asset/css/style.css">
-    <script src="./Asset/js/script.js"></script>
     <title>Le Carnet Gourmand</title>
 </head>
 
@@ -46,19 +45,23 @@
         </div>
         
         <div class="Droite">
-            <form action="" method="post">
+            <form Id="Formulaire" action="" method="post">
                 <h3>Laisser un commentaire</h3>
                 <label>
-                    <h4>Votre nom</h4> <input type="text" placeholder="Ex : Léa">
+                    <h4 >Votre nom</h4> <input id="Nom" type="text" placeholder="Ex : Léa">
                     <p>Minimum 2 caractères</p>
                 </label>
                 <label>
-                    <h4>Votre commentaire</h4> <textarea type="text" placeholder="Votre avis sur la recette..."></textarea>
+                    <h4 >Votre commentaire</h4> <textarea id="Commentaire" type="text" placeholder="Votre avis sur la recette..."></textarea>
                     <p>Minimum 10 caractères</p>
                 </label>
-                <input class="Envoyer" type="submit" value="Publier">
+                <input id="Envoyer" class="Envoyer" type="submit" value="Publier">
             </form>
+
+            <span><p id="Erreur" class="Erreur"></p></span>
+
             <h3>Commentaire</h3>
+            <div id="Avis" class="Avis"><p></p></div>
         </div>
     </main>
 
@@ -67,6 +70,8 @@
     <footer>
         <p>Devoir JavaScript - Frontend</p>
     </footer>
+    
+    <script src="./Asset/js/script.js"></script>
 </body>
 
 </html>

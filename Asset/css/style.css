@@ -114,13 +114,23 @@ textarea{
 }
 
 .Envoyer{
-    padding : 10px 14px;
+    Padding : 10px 12px;
+    border: 1px solid #e5e7eb;
     border-radius : 12px;
     background-color: #2563eb;
     color:#ffffff;
-    width : 100%;
+    width :90%;
 }
 
+.Droite .Erreur{
+    color: #dc2626;
+    background-color: #fee2e2;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 12px;
+    border-radius : 12px;
+    border: 1px solid #e5e7eb;
+}
 
 footer{
     display: flex;
