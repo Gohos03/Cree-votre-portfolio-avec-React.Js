@@ -41,6 +41,7 @@ main h2{
     font-size: 175%;
 }
 .Gauche{
+    flex-grow: 2;
     border-radius : 16px;
     margin: 20px 5px ;
     padding : 16px;
